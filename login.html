@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <!-- Meta tags for character set and viewport -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Link to the Boxicons CSS stylesheet -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+        <!-- Link to your custom CSS stylesheet -->
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-- Title of the HTML document -->
+        <title>Home</title>
+    </head>
+    <body>
+        <!-- Login form section -->
+        <section id="hero-section">
+            <form action="" onsubmit="return false;">
+                <h1>Login</h1>
+                <!-- Input box for the username with an icon -->
+                <div class="input-box">
+                    <i class="bx bx-user"></i>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Username"
+                        required
+                    />
+                </div>
+
+                <!-- Input box for the password with an icon -->
+                <div class="input-box">
+                    <i class="bx bx-lock-alt"></i>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Password"
+                        required
+                    />
+                </div>
+
+                <!-- Submit button for the form -->
+                <button type="submit" id="loginBtn">Login</button>
+                <!-- <button type="submit" id="">send</button> -->
+            </form>
+            <script src="./app.js"></script>
+        </section>
+    </body>
+</html>
